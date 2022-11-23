@@ -185,4 +185,12 @@ public class Controller {
         }
     }
 
+    public Customer findCustomer(String customerName) {
+        for ( Customer customer: customers ) {
+            if ( customer.getName().equals(customerName)) {
+                return customer;
+            }
+        }
+        return null;
+    }
 }
