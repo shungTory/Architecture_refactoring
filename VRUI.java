@@ -12,6 +12,8 @@ public class VRUI {
 
 	public static void main(String[] args) {
 		VRUI ui = new VRUI() ;
+		VRController controller = new VRController();
+
 
 		boolean quit = false ;
 		while ( ! quit ) {
